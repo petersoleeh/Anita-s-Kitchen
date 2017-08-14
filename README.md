@@ -1,12 +1,26 @@
-# Independent Project
+ANITA'S KITCHEN
 
-## Instructions
-  1) Please fork the Moringa School **mpft1-ip** repo to your own account.
+#### Website for anita's kitchen offers,  14/08/2017
 
-  2) Clone **your forked repo** to your own machine.`
+#### By **Peter Maina**
 
-  3) Fill in the form under the [IP submission](http://moringaprep-ft.herokuapp.com/#10.html) heading in the LMS
+## Description
 
-  4) Complete the independent project.
-  
-  5) Push your commits up to your forked repo.
+The website is aimed at given the customers a detailed menu of cuisines offered at Anita's kitchen. Its shows the different foods an drinks to be offered.
+
+
+## Technologies Used
+
+<ul>HTML</ul>
+<ul>Javascript</ul>
+<ul>styling done with css</ul>
+
+## Support and contact details
+
+For further assistance dont hesitate to <a href="https://github.com/petersoleeh">contact me</a>
+
+### License
+
+
+
+Copyright (c) 2017 **PeterMaina**
