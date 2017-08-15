@@ -16,9 +16,6 @@
    padding: 80px;
  }
 
-.burgers{
-  background-position: center;
-}
 
 #breakfast{
   background-image: url("../assets/foodtop/breakfast.jpg");
@@ -29,7 +26,9 @@
 }
 
 .section1{
-  margin:100px
+  margin:100px;
+  padding: inherit;
+
 }
 #Lunch{
   background-image: url("../assets/foodtop/lunch.jpg");
@@ -58,10 +57,87 @@
 
 }
 
-.section1{
+.section2{
   margin:100px
+  padding:inherit;
 }
 .section3{
-  background-size: cover;
   background-image: url("../assets/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px;
+  color: white;
+  text-align: center;
+  color: #F15A29;
+
 }
+
+.drinks{
+  border:solid 25px;
+  display: inline-block;
+  border-bottom-color:#ffe;
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
+  max-height:100%;
+  max-width:100%;
+  }
+.fastfoods{
+  border:solid 25px;
+  display: inline-block;
+  border-bottom-color:#ffe;
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
+  max-height:100%;
+  max-width:100%;
+}
+
+.cb{
+  text-align: left;
+  border:
+
+}
+ .burgers{
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img src="assets/fastfood/beefBurger.jpg" style="display:inline" alt="drinks" width="" height="">
+
+<img src="assets/fastfood/chickenPizza.jpg" style="display:inline" alt="drinks" width="" height="">
