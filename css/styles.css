@@ -8,6 +8,7 @@
   font-size: 30px;
   font-family: 'Saira Extra Condensed', sans-serif;
   color:white;
+  padding-bottom: 150px;
 
 }
 
@@ -19,53 +20,79 @@
 
 #breakfast{
   background-image: url("../assets/foodtop/breakfast.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 80px;
   color: white;
-  padding-left: 80px;
+  font-size: 30px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-align: center;
+  font-style: italic;
+
 
 }
 
 .section1{
-  margin:100px;
-  padding: inherit;
+
 
 }
 #Lunch{
   background-image: url("../assets/foodtop/lunch.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 80px;
   color: white;
   padding-left: 80px;
-  margin: auto;
+  font-size: 30px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-align: left;
+  font-style: italic;
+
 }
 
 #dinner{
   background-image: url("../assets/foodtop/dinner.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 80px;
-  margin: inherit;
+  display: inherit;
+  font-size: 30px;
+  font-family: 'Saira Extra Condensed', sans-serif;
   color: white;
+  text-align: center;
+  font-style: italic;
 }
 #Happyhour{
   color: #F15A29 ;
-  padding:left;
+  padding-left: 10px;
   padding-bottom: 50px;
+  font-size: 30px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-align: center;
+
 }
 #Partytime{
   background-color: #F15A29;
-  padding: 40px;
+  padding-bottom: 57px;
   color: white;
-  padding-bottom: 40px;
+  font-size: 30px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-align: center;
+
 
 }
 
 .section2{
-  margin:100px
-  padding:inherit;
+  margin:50px;
+  padding-top: 240px;
 }
+
+
 .section3{
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 250px;
+  padding: 400px;
   color: white;
   text-align: center;
   color: #F15A29;
@@ -73,34 +100,26 @@
 }
 
 .drinks{
-  border:solid 25px;
-  display: inline-block;
-  border-bottom-color:#ffe;
-  border-left-color:#eed;
-  border-right-color:#eed;
-  border-top-color:#ccb;
-  max-height:100%;
-  max-width:100%;
-  }
+  border: solid 1em transparent;
+  padding: .05em;
+  box-shadow:  0 0 0.2em #be4c39;
+  background: white padding-box;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+
+
 .fastfoods{
-  border:solid 25px;
-  display: inline-block;
-  border-bottom-color:#ffe;
-  border-left-color:#eed;
-  border-right-color:#eed;
-  border-top-color:#ccb;
-  max-height:100%;
-  max-width:100%;
-}
+  border: solid 1em transparent;
+  padding: .05em;
+  box-shadow:  0 0 0.2em #be4c39;
+  background: white padding-box;
+  padding-right: 10px;
+  padding-left: 15px;
 
-.cb{
-  text-align: left;
-  border:
 
 }
- .burgers{
 
- }
 
 
 
@@ -141,3 +160,52 @@
 <img src="assets/fastfood/beefBurger.jpg" style="display:inline" alt="drinks" width="" height="">
 
 <img src="assets/fastfood/chickenPizza.jpg" style="display:inline" alt="drinks" width="" height="">
+
+
+<div class="burgers">
+  <div class="col-lg-3">
+    <div>
+      <p class="cb"> <br>Fast Foods</p>
+    </div>
+    <div>
+      <img src="assets/fastfood/chickenBurger.jpg" style="display:inline" alt="drinks" width="" height="">
+      <div>
+        <p1> <br>Chicken Burger</p1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-3">
+    <div>
+      <p class="bb"> <br>Drinks</p>
+    </div>
+    <div>
+      <img src="assets/fastfood/beefBurger.jpg" style="display:inline" alt="drinks" width="" height="">
+      <div>
+        <p1> <br>Beef Burger</p1>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-lg-3">
+    <div>
+      <p class="cp"> <br>Chicken</p>
+    </div>
+    <div>
+      <img src="assets/fastfood/chickenPizza.jpg" style="display:inline" alt="drinks" width="" height="">
+      <div>
+        <p1> <br>Chicken Pizza</p1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-3">
+    <div>
+      <p class="cp"> <br>Rice</p>
+    </div>
+  </div>
+</div>
