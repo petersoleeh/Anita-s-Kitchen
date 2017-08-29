@@ -92,7 +92,7 @@
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 400px;
+  padding: 250px;
   color: white;
   text-align: center;
   color: #F15A29;
@@ -117,12 +117,25 @@
   padding-right: 10px;
   padding-left: 15px;
 
-
 }
-
-
-
-
+#myCarousel .nav a {
+    border-radius:0px;
+}
+body { padding-top: 20px; }
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+    background:#eee;
+  }
+.col-md-4 h3{
+  color: #F15A29;
+  text-align: center;
+}
+.col-md-8 h3,h4{
+  color: #F15A29;
+  text-align: center;
+}
 
 
 
